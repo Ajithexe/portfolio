@@ -1,0 +1,10 @@
+# Temporary scripts and test crops
+*.py
+compare_png.js
+find_shift.js
+photo_*.jpg
+test_*.png
+crop_*.png
+node_modules/
+.DS_Store
+*.log
