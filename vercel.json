@@ -3,5 +3,14 @@
   "rewrites": [
     { "source": "/", "destination": "/index.html" },
     { "source": "/3d", "destination": "/3d.html" }
+  ],
+  "headers": [
+    {
+      "source": "/resume.pdf",
+      "headers": [
+        { "key": "Content-Type", "value": "application/pdf" },
+        { "key": "Content-Disposition", "value": "attachment; filename=\"Ajith_AS_CV_Emirates_Elevate.pdf\"" }
+      ]
+    }
   ]
 }
